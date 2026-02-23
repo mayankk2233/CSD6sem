@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #efefef;
+  margin: 0;
+}
+
+.wrap {
+  width: 90%;
+  margin: 25px auto;
+}
+
+.hdr {
+  background: #3f51b5;
+  color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.hdr h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.tabs {
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  padding: 8px 16px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 8px;
+}
+
+th {
+  background: #3f51b5;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+}
+
+.vb {
+  background: lightblue;
+  border: none;
+  padding: 4px 9px;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.eb {
+  background: lightyellow;
+  border: 1px solid #ccc;
+  padding: 4px 9px;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.db {
+  background: #ffcccc;
+  border: none;
+  padding: 4px 9px;
+  cursor: pointer;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.box h3 {
+  margin: 0 0 15px;
+  color: #3f51b5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.grid label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.grid input {
+  width: 100%;
+  padding: 7px;
+  margin-top: 4px;
+  border: 1px solid #bbb;
+  font-size: 13px;
+}
+
+.sbtn {
+  background: #3f51b5;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  background: white;
+  padding: 25px;
+  width: 360px;
+}
+
+.modal button {
+  background: #3f51b5;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+.row2 {
+  display: flex;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+}
+
+.row2 b {
+  width: 120px;
+  color: #555;
+}
